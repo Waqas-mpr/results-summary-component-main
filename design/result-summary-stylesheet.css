@@ -1,0 +1,23 @@
+:root {
+	/* Colors */
+
+	/* Primary */
+
+	--clr-primary-light-red: 0, 100%, 67%;
+	--clr-primary-orangey-yellow: 39, 100%, 56%;
+	--clr-primary-green-teal: 166, 100%, 37%;
+	--clr-primary-cobalt-blue: 234, 85%, 45%;
+
+	/* Gradients */
+	--bgclr-light-slate-blue: 252, 100%, 67%;
+	--bgclr-light-slate-blue: 241, 81%, 54%;
+	--clr-violet-blue: 256, 72%, 46%, 1;
+	--clr-persian-blue: 241, 72%, 46%, 0;
+
+	/* Neutral */
+
+	--clr-white: 0, 0%, 100%;
+	--clr-pale-blue: 221, 100%, 96%;
+	--clr-light-lavender: 241, 100%, 89%;
+	--clr-dark-gray-blue: 224, 30%, 27%;
+}
