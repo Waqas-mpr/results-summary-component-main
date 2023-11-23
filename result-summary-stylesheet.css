@@ -44,7 +44,7 @@
 	--fs-500: 1.25rem;
 	--fs-600: 1.5rem;
 	--fs-700: 1.75rem;
-	--fs-800: 2rem;
+	--fs-800: 3rem;
 	--fs-900: 5rem;
 
 	--ff-hanken-Grotesk: "Hanken Grotesk", sans-serif;
@@ -108,6 +108,14 @@ body {
 	font-family: var(--ff-hanken-Grotesk);
 	font-size: var(--fs-500);
 	color: hsl(var(--clr-dark-gray-blue));
+}
+
+@media (min-width: 600px) {
+	body {
+		min-height: 100vh;
+		display: grid;
+		place-items: center;
+	}
 }
 
 .flex {
@@ -192,6 +200,7 @@ body {
 .main-component {
 	width: 45rem;
 	border-radius: 2rem;
+	margin: 2rem;
 	box-shadow: 0.5rem 1rem 3rem hsl(var(--neutralclr-dark-gray-blue), 0.2);
 }
 
@@ -260,13 +269,11 @@ body {
 	font-size: var(--fs-400);
 }
 
-
-
 .summary-row-title {
 	color: hsl(var(--item-color));
 	font-weight: var(--fw-bold);
 	margin-bottom: 2rem;
-  } 
+}
 
 .summary-row svg {
 	stroke: hsl(var(--item-color));
@@ -295,4 +302,28 @@ body {
 
 .summary-score span {
 	color: hsl(var(--neutralclr-dark-gray-blue));
+}
+@media only screen and (max-width: 650px) {
+	.main-component {
+		flex-direction: column;
+		width: 100vw;
+		margin: 2rem;
+		border-radius: 0 0 2rem 2rem;
+	}
+	.result-section {
+		border-radius: 0 0 2rem 2rem;
+	}
+
+	.result-section .section-title {
+		font-size: var(--fs-500);
+		font-weight: var(--fw-bold);
+	}
+
+	.result-score {
+		width: 8rem;
+	}
+
+	.result-score span {
+		font-size: var(--fs-800);
+	}
 }
