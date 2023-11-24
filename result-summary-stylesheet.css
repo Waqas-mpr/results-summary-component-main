@@ -263,7 +263,7 @@ body {
 	border-radius: 0.5rem;
 	color: hsl(var(--item-color));
 	font-size: var(--fs-400);
-	--flex-gap: 0.5rem;
+	--flex-gap: 0.7rem;
 }
 
 .summary-row-title {
