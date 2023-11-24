@@ -306,25 +306,24 @@ body {
 		width: 100vw;
 		margin: 2rem;
 		border-radius: 0 0 2rem 2rem;
+		box-shadow: none;
 	}
 	.result-section {
 		border-radius: 0 0 2rem 2rem;
 	}
 
-	.result-section .section-title {
-		font-size: var(--fs-500);
-		font-weight: var(--fw-bold);
+	.circle {
+		width: 10rem;
 	}
 
-	.result-score {
-		width: 8rem;
-	}
-
-	.result-score span {
+	.circle h2 {
 		font-size: var(--fs-800);
 	}
 
 	.summary-section {
 		width: 100vw;
+	}
+	.result-section {
+		height: auto;
 	}
 }
