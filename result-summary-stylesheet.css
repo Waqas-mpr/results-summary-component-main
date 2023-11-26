@@ -193,13 +193,13 @@ body {
 .result-section {
 	flex-basis: 100%;
 	background: var(--gradient-primary);
-	padding: 2rem;
+	padding: 2.5rem;
 	color: hsl(var(--neutral-white));
 	border-radius: 2rem;
 }
 .summary-section {
 	flex-basis: 100%;
-	padding: 2rem;
+	padding: 2.5rem;
 	padding-left: 2rem;
 }
 .result-title,
@@ -223,6 +223,9 @@ body {
 	font-weight: var(--fw-black);
 	line-height: 1em;
 	color: hsl(var(--neutral-white));
+}
+.circle p {
+	padding-top: 0.5rem;
 }
 .greeting {
 	font-size: var(--fs-600);
@@ -253,12 +256,12 @@ body {
 }
 
 .summary-title {
-	margin-bottom: 2rem;
+	color: var(--dark-gray-blue);
 }
 
 .summary-row {
 	width: 100%;
-	padding: 0.7rem 1rem;
+	padding: 1rem;
 	background-color: hsl(var(--item-color), 0.1);
 	border-radius: 0.5rem;
 	color: hsl(var(--item-color));
@@ -269,11 +272,11 @@ body {
 .summary-row-title {
 	color: hsl(var(--item-color));
 	font-weight: var(--fw-bold);
+	font-size: var(--fs-400);
 }
 
 .summary-row svg {
 	stroke: hsl(var(--item-color));
-	stroke-width: 1rem;
 }
 
 .summary-row[data-item-type="light-red"] {
@@ -304,9 +307,9 @@ body {
 	.main-component {
 		flex-direction: column;
 		width: 100vw;
-		margin: 2rem;
 		border-radius: 0 0 2rem 2rem;
 		box-shadow: none;
+		height: 100%;
 	}
 	.result-section {
 		border-radius: 0 0 2rem 2rem;
@@ -322,6 +325,10 @@ body {
 
 	.summary-section {
 		width: 100vw;
+	}
+
+	.summary-row {
+		padding-block: 1.5rem;
 	}
 	.result-section {
 		height: auto;
